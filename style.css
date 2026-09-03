@@ -1,0 +1,38 @@
+body {
+    background-color: #fff1ba; /*lightgoldenrodyelloy*/
+}
+
+.botoes {
+    background-color:lightgreen;
+    width: 80%;
+    margin:  auto;
+    margin-top: 10px;
+    
+    
+}
+
+button {
+    background-color: green;
+    font-size: 16px;
+    margin-right: 40px;
+    width:120px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+.txteimg {
+background-color:lightgreen;
+width: 80%;
+margin: auto;
+margin-top: 10px;
+}
+
+.global {
+    background-color:darkgreen; /*verde musgo 457a00*/
+    margin: 20px;
+}
