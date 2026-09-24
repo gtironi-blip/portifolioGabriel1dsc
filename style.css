@@ -7,6 +7,8 @@ body {
     width: 80%;
     margin:  auto;
     margin-top: 10px;
+    display: flex;
+    align-items: center;
     
 }
 
@@ -33,5 +35,4 @@ margin-top: 10px;
 
 .global {
     background-color:darkgreen; /*verde musgo 457a00*/
-    margin: 20px;
 }
