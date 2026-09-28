@@ -9,6 +9,8 @@ body {
     margin-top: 10px;
     display: flex;
     align-items: center;
+    border-radius: 10px;
+    
     
 }
 
@@ -31,6 +33,7 @@ background-color:lightgreen;
 width: 80%;
 margin: auto;
 margin-top: 10px;
+border-radius: 10px;
 }
 
 .global {

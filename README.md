@@ -1,4 +1,4 @@
 Portifólio GOAT
-add mim.html, imagens, gifs, projetos,html
+add outras imagens, descrição no index
 
 pesquisar elementos css que se auto ajustam

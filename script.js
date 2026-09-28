@@ -19,3 +19,4 @@ function Calcularnota() {
         alert("Estude mais, você precisa tirar "+ resultadonota+ " no 3 tri");
     }
 }
+
