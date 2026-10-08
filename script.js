@@ -2,11 +2,12 @@ function botao() {
     alert ("Kwaii. UwU :)")
 }
 
-let nota1tri;
-let nota2tri;
-let resultadonota;
+
 
 function Calcularnota() {
+    let nota1tri;
+    let nota2tri;
+    let resultadonota;
     nota1tri = Number(prompt("Digite sua nota do 1º Trimestre"));
     nota2tri = Number(prompt("Digite sua nota do 2º Trimestre"));
 
@@ -20,3 +21,22 @@ function Calcularnota() {
     }
 }
 
+function ParImpar() {
+    let numero;
+    let resultadoparimpar;
+    numero = Number(prompt("informe um número:"));
+
+    resultadoparimpar = numero % 2 /* % resto da divisão*/
+
+    if (resultadoparimpar == 0){/* == é para comprarar */
+        alert("O seu número " + numero + " é Par") 
+    }else{
+        alert("O seu número " + numero + " é Ímpar")
+    }
+
+}
+
+
+function domain() {
+    document.body.style.backgroundImage = "url(shadowgardenn.gif)"
+}
