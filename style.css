@@ -1,5 +1,9 @@
 body {
     background-color: #fff1ba; /*lightgoldenrodyelloy*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
 }
 
 h1 {
@@ -45,6 +49,11 @@ button {
     cursor: pointer;
 
 
+}
+
+button :hover{
+    background-color:darkolivegreen;
+    transform: scale(1.1);
 }
 a :hover{
     background-color:darkolivegreen;

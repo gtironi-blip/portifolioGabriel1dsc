@@ -37,6 +37,7 @@ function ParImpar() {
 }
 
 
-function domain() {
-    document.body.style.backgroundImage = "url(shadowgardenn.gif)"
+function Domain() {
+    document.body.style.backgroundImage = "url('shadowgarden.gif')";
+    console.log("Funcionou!");
 }
