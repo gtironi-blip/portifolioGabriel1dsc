@@ -54,8 +54,23 @@ function MaiorMenor() {
     Numero2 = Number(prompt("Informe o segundo número:"));
 
     if(Numero1 > Numero2) {
-        alert("O " + Numero1 + "é maior que o " + Numero2 + ".")
+            alert("O " + Numero1 + " é maior que o " + Numero2 + ".")
+    }else if(Numero2 > Numero1){
+            alert("O " + Numero2 + " é maior que o " + Numero1 + ".")
     }else{
-        alert("O " + Numero2 + "é maior que o " + Numero1 + ".")
+            alert("os 2 números são iguais")
     }
+    
+
+
+}
+
+function site() {
+    let nome;
+    let mostrar
+    nome = prompt("qual é o seu nome?")
+    mostrar = document.getElementById('mostrar')
+
+    mostrar.innerHTML = `<p>Olá ${nome}! Seja bém vindo </p>`;
+
 }
