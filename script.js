@@ -2,6 +2,10 @@ function botao() {
     alert ("Kwaii. UwU :)")
 }
 
+function hello() {
+    alert("hello world/ olá mundo")
+}
+
 
 
 function Calcularnota() {
@@ -40,4 +44,18 @@ function ParImpar() {
 function Domain() {
     document.body.style.backgroundImage = "url('shadowgarden.gif')";
     console.log("Funcionou!");
+}
+
+function MaiorMenor() {
+    let Numero1
+    let Numero2
+
+    Numero1 = Number(prompt("Informe o primeiro número:"));
+    Numero2 = Number(prompt("Informe o segundo número:"));
+
+    if(Numero1 > Numero2) {
+        alert("O " + Numero1 + "é maior que o " + Numero2 + ".")
+    }else{
+        alert("O " + Numero2 + "é maior que o " + Numero1 + ".")
+    }
 }
