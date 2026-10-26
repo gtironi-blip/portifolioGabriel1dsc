@@ -43,7 +43,7 @@ function ParImpar() {
 
 function Domain() {
     document.body.style.backgroundImage = "url('shadowgarden.gif')";
-    console.log("Funcionou!");
+    console.log("Funcionou!"); // Usei IA nisso
 }
 
 function MaiorMenor() {
@@ -71,6 +71,6 @@ function site() {
     nome = prompt("qual é o seu nome?")
     mostrar = document.getElementById('mostrar')
 
-    mostrar.innerHTML = `<p>Olá ${nome}! Seja bém vindo </p>`;
+    mostrar.innerHTML = `<p>Olá <mark>${nome}!</mark> Seja bém vindo </p>`;
 
 }
