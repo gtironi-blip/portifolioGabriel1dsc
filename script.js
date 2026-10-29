@@ -71,6 +71,23 @@ function site() {
     nome = prompt("qual é o seu nome?")
     mostrar = document.getElementById('mostrar')
 
-    mostrar.innerHTML = `<p>Olá <mark>${nome}!</mark> Seja bém vindo </p>`;
+    mostrar.innerHTML = `<p>Olá <mark>${nome}!</mark> Seja bem vindo </p>`;
+
+   
 
 }
+
+function aleatorio() {
+
+    let minimo = 1 
+    let maximo = 100
+    let dif = maximo - minimo /*diferença*/
+    let aleatorio = Math.random()
+    let num = minimo + Math.trunc(dif * aleatorio)
+
+    let mostrar = document.getElementById('ResultadoAleatorio')
+
+     
+    mostrar.innerHTML = `<p>resultado: ${num}</p>`
+}
+

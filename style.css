@@ -45,7 +45,7 @@ button {
     margin-bottom: 5px;
     margin-left: 10px;
 
-    transition: 1s all;
+    transition: 0.5s all;
     cursor: pointer;
 
 
@@ -55,6 +55,7 @@ button :hover{
     background-color:darkolivegreen;
     transform: scale(1.1);
 }
+
 a :hover{
     background-color:darkolivegreen;
     transform: scale(1.1);
