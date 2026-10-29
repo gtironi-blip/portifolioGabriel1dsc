@@ -73,13 +73,19 @@ function site() {
 
     mostrar.innerHTML = `<p>Olá <mark>${nome}!</mark> Seja bem vindo </p>`;
 
-   
+   switch(nome){
+
+    case "flavio":
+        mostrar.innerHTML = `<img src="flavio.jpeg" alt="foto do flavio hipotético" height="300" widith="200">`;
+        break;
+        
+   }
 
 }
 
 function aleatorio() {
 
-    let minimo = 1 
+    let minimo = 1
     let maximo = 100
     let dif = maximo - minimo /*diferença*/
     let aleatorio = Math.random()
@@ -89,5 +95,16 @@ function aleatorio() {
 
      
     mostrar.innerHTML = `<p>resultado: ${num}</p>`
+
+
+    if(num == 67) {
+        alert("Você acabou de mogarf uns betinhas por aí, + 100 de aura")
+        mostrar.innerHTML = `<img src="6-6-7.gif" height="100" width="100">`
+    }else{
+    
+    }
+
 }
+
+
 
